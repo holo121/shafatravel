@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head><!-- Required meta tags -->
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css"/>
@@ -13,26 +14,24 @@
 <body>
 <div class="container-fluid">
     <div class="row bg-light shadow-sm">
-
         <div class="col my-1">
+            <a class="btn btn-sm btn-outline-danger" href="#">عربی</a>
+            <a class="btn btn-sm btn-outline-danger" href="#">فارسی</a>
+            <a class="btn btn-sm btn-outline-danger" href="#">English</a>
+        </div>
+        <div class="col-auto my-1">
             <a href="tel:+98215556677" class="phone btn btn-sm">
                 <span class="text">+989130622400</span>
                 <i class="fab fa-whatsapp ms-2"></i>
             </a>
         </div>
-        <div class="col-auto my-1">
-            <a class="btn btn-sm btn-outline-danger" href="#">عربی</a>
-            <a class="btn btn-sm btn-outline-danger" href="#">فارسی</a>
-            <a class="btn btn-sm btn-outline-danger" href="#">English</a>
-        </div>
     </div>
     <div class="row top-menu">
-
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-
-            <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt=""/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,8 +46,8 @@
                         <a class="nav-link" href="#">قبل و بعد</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             بیشتر بدانید
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -65,8 +64,8 @@
                         <a class="nav-link" href="#">وبلاگ</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             درباره ما
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -80,15 +79,30 @@
                     </li>
                 </ul>
                 <div class="">
-                    <button class="btn text-white btn-sm btn-success">مشاوره رایگان</button>
+                    <button class="btn text-white btn-sm btn-info">
+                        مشاوره رایگان
+                    </button>
                 </div>
             </div>
-
         </nav>
-
-
+    </div>
+    <div class="row">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide1.jpg" class="d-block w-100" alt="..."/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide1.jpg" class="d-block w-100" alt="..."/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide1.jpg" class="d-block w-100" alt="..."/>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 <!-- Option 1: Bootstrap Bundle with Popper -->
 
 <script src="js/bootstrap.bundle.min.js"></script>
