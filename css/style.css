@@ -5,8 +5,25 @@ body {
     background: #fff;
     font-weight: normal;
 }
+
 .caption h2 {
     color: #000;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.section-3 {
+    background-color: #1eb690;
+    background-image: linear-gradient(to bottom right, #1eb690, #114bed);
+}
+
+.section-3 h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.section-3 p {
+    font-size: 15px;
+    line-height: 26px;
 }
