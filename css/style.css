@@ -12,7 +12,12 @@ body {
     font-weight: bold;
 }
 
+.section-2 {
+    background: url("../images/bg.svg") right bottom no-repeat;
+}
+
 .section-3 {
+    color: #fff;
     background-color: #1eb690;
     background-image: linear-gradient(to bottom right, #1eb690, #114bed);
 }
