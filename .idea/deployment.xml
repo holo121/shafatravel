@@ -5,13 +5,8 @@
       <paths name="shafatravel">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath path="/.well-known" />
-            <excludedPath path="/cgi-bin" />
-            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

@@ -3,17 +3,28 @@ body {
     font-size: 16px;
     color: #686868;
     background: #fff;
-    font-weight: normal;
-}
 
-.caption h2 {
-    color: #000;
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .section-2 {
     background: url("../images/bg.svg") right bottom no-repeat;
+}
+
+.section-2 .caption h2 {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.section-2 .link a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.section-2 .card:hover a {
+    /*color: #114bed;*/
 }
 
 .section-3 {
