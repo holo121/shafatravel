@@ -34,9 +34,11 @@ body {
 }
 
 .section-3 h3 {
+    color: #fff;
     font-size: 1.2rem;
     line-height: 28px;
-    font-weight: normal;
+    font-weight: bold;
+    margin: 1rem 0;
 }
 
 .section-3 p {
@@ -48,15 +50,16 @@ body {
 .shafa-services .caption h2 {
     color: #333;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .shafa-services .box h3 {
     color: #333;
     font-size: 1.2rem;
     line-height: 28px;
-    font-weight: normal;
+    font-weight: bold;
     margin: 1rem 0;
+
 }
 
 .shafa-services .box p {
