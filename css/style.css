@@ -1,7 +1,7 @@
 body {
     font-family: iranyekan-en, sans-serif;
     font-size: 16px;
-    color: #686868;
+    color: #333;
     background: #fff;
 
 }
@@ -11,14 +11,14 @@ body {
 }
 
 .section-2 .caption h2 {
-    color: #000;
+    color: #333;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 
 .section-2 .link a {
-    color: #000;
+    color: #333;
     font-weight: 500;
     text-decoration: none;
 }
@@ -34,12 +34,31 @@ body {
 }
 
 .section-3 h3 {
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 28px;
     font-weight: normal;
 }
 
 .section-3 p {
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 26px;
+}
+
+/**/
+.shafa-services .caption h2 {
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.shafa-services .box h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.shafa-services .box p {
+    font-size: 0.8rem;
+    color: #666;
+
 }
