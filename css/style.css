@@ -6,47 +6,60 @@ body {
 
 }
 
-.section-2 {
+/********** CUSTOM **********/
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+
+}
+
+/********** POPULAR TREATMENTS **********/
+
+.popular-treatments {
     background: url("../images/bg.svg") right bottom no-repeat;
 }
 
-.section-2 .caption h2 {
-    color: #333;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
-
-.section-2 .link a {
+.popular-treatments .card .link a {
     color: #333;
     font-weight: 500;
     text-decoration: none;
 }
 
-.section-2 .card:hover a {
+.popular-treatments .card:hover a {
     /*color: #114bed;*/
 }
 
-.section-3 {
+/********** VIDEO TRIP TO IRAN **********/
+.video-trip-to-iran {
     color: #fff;
     background-color: #1eb690;
     background-image: linear-gradient(to bottom right, #1eb690, #114bed);
 }
 
-.section-3 h3 {
+.video-trip-to-iran p {
     color: #fff;
-    font-size: 1.2rem;
-    line-height: 28px;
-    font-weight: bold;
-    margin: 1rem 0;
 }
 
-.section-3 p {
-    font-size: 1rem;
-    line-height: 26px;
-}
-
-/**/
+/********** Services **********/
 .shafa-services .caption h2 {
     color: #333;
     font-size: 1.5rem;
@@ -63,7 +76,21 @@ body {
 }
 
 .shafa-services .box p {
-    font-size: 0.8rem;
-    color: #666;
+
+
+}
+
+/********** Top Tour **********/
+.top-tour {
+    background: #F7F7F7;
+}
+
+
+.top-tour .caption h2 {
+
+}
+
+.top-tour h3 {
+
 
 }
