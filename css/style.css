@@ -86,11 +86,25 @@ h3 {
 }
 
 
-.top-tour .caption h2 {
+/********** Property Number **********/
+.property-number {
+    text-align: center;
 
 }
 
-.top-tour h3 {
+.property-number .number {
+    color: #14469D;
+    font-size: 50px;
+    font-weight: 500;
+}
 
+.property-number p {
+    color: #14469D;
+    font-size: 18px;
+}
+
+/********** Share Experience **********/
+
+.share-experience {
 
 }
